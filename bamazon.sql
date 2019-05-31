@@ -42,3 +42,5 @@ values ("Wireless Earbuds", "Electronics", 60.00, 20);
 
 insert into products (product_name, department_name, price, stock_quantity)
 values ("55in TV", "Electronics", 400.00, 10);
+
+UPDATE products SET stock_quantity = 40 WHERE item_id = 1;
